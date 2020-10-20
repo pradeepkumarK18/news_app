@@ -26,7 +26,8 @@ const Technology = () => {
                         category: 'technology',
                         country,
                         pageSize: 8,
-                        page: 1
+                        page: 1,
+                        apiKey: '2da91faa1ded4851b4f5f0f1c3a57c5e'
                     })
                 )
             });
