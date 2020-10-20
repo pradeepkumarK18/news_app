@@ -8,6 +8,7 @@ const Header = () => (
     }}>
       <Head>
         <title>News App</title>
+        <meta name="google-site-verification" content="IANNb4-1VdIs-shXN8TEzzn4cs39WUPun9899m77OC4" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
