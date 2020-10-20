@@ -22,7 +22,7 @@ const Technology = () => {
             fetch(request)
               .then(response => response.json())
               .then((news) => {
-                setData(news);
+                setData(news.articles);
                 console.log(news);
               })
               .catch(error => {
