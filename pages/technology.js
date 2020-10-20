@@ -10,13 +10,13 @@ const Technology = () => {
 
         if (!unmounted) {
             
-            const proxyUrl = "https://cors-anywhere.herokuapp.com/"
-            const category = "business";
-            const country = "us";
-            const pageSize = "8";
-            const page = "1";
-            const apiKey = "2da91faa1ded4851b4f5f0f1c3a57c5e";
-            const url = `${proxyUrl}https://newsapi.org/v2/top-headlines?category=${category}&country=${country}&pageSize=${pageSize}&page=${page}&apiKey=${apiKey}`;
+//             const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+//             const category = "business";
+//             const country = "us";
+//             const pageSize = "8";
+//             const page = "1";
+//             const apiKey = "2da91faa1ded4851b4f5f0f1c3a57c5e";
+            const url = `https://saurav.tech/NewsAPI/top-headlines/category/health/in.json`;
             const request = new Request(url);
 
             fetch(request)
